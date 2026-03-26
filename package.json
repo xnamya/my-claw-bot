@@ -1,0 +1,12 @@
+{
+  "name": "openclaw-render",
+  "version": "1.0.0",
+  "description": "OpenClaw Launcher for Render",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  }
+}
