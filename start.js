@@ -3,7 +3,7 @@ const http = require('http');
 
 // 1. Start the OpenClaw Gateway
 console.log("🚀 Initializing OpenClaw Gateway...");
-const gateway = exec('npx openclaw gateway run --allow-unconfigured');
+const gateway = exec('npx openclaw pairing approve telegram DH4CSWXH');
 
 gateway.stdout.on('data', (data) => console.log(`[OpenClaw]: ${data}`));
 gateway.stderr.on('data', (data) => console.error(`[Error]: ${data}`));
